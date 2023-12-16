@@ -1,0 +1,199 @@
+|--- adx_200 <= 3.75
+|   |--- adx_20 <= 16.48
+|   |   |--- williams_100 <= -33.26
+|   |   |   |--- adx_5 <= 351.23
+|   |   |   |   |--- rsi_120 <= 88.55
+|   |   |   |   |   |--- standardDeviation_200 <= 9.59
+|   |   |   |   |   |   |--- rsi_70 <= 46.78
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- rsi_70 >  46.78
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |--- standardDeviation_200 >  9.59
+|   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- rsi_120 >  88.55
+|   |   |   |   |   |--- standardDeviation_50 <= 7.45
+|   |   |   |   |   |   |--- williams_100 <= -73.02
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- williams_100 >  -73.02
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- standardDeviation_50 >  7.45
+|   |   |   |   |   |   |--- class: Loss
+|   |   |   |--- adx_5 >  351.23
+|   |   |   |   |--- standardDeviation_120 <= 1.04
+|   |   |   |   |   |--- williams_120 <= -87.78
+|   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- williams_120 >  -87.78
+|   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- standardDeviation_120 >  1.04
+|   |   |   |   |   |--- rsi_5 <= 103.72
+|   |   |   |   |   |   |--- standardDeviation_20 <= 2.71
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- standardDeviation_20 >  2.71
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- rsi_5 >  103.72
+|   |   |   |   |   |   |--- class: Loss
+|   |   |--- williams_100 >  -33.26
+|   |   |   |--- adx_100 <= 22.86
+|   |   |   |   |--- standardDeviation_10 <= 3.00
+|   |   |   |   |   |--- rsi_30 <= 59.43
+|   |   |   |   |   |   |--- williams_120 <= -58.53
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- williams_120 >  -58.53
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- rsi_30 >  59.43
+|   |   |   |   |   |   |--- standardDeviation_25 <= 1.38
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- standardDeviation_25 >  1.38
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- standardDeviation_10 >  3.00
+|   |   |   |   |   |--- class: Loss
+|   |   |   |--- adx_100 >  22.86
+|   |   |   |   |--- williams_5 <= -67.24
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- williams_5 >  -67.24
+|   |   |   |   |   |--- standardDeviation_5 <= 0.44
+|   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- standardDeviation_5 >  0.44
+|   |   |   |   |   |   |--- class: Loss
+|   |--- adx_20 >  16.48
+|   |   |--- rsi_70 <= 55.57
+|   |   |   |--- standardDeviation_50 <= 14.85
+|   |   |   |   |--- standardDeviation_25 <= 0.51
+|   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- standardDeviation_25 >  0.51
+|   |   |   |   |   |--- williams_25 <= -97.15
+|   |   |   |   |   |   |--- adx_10 <= 27.27
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- adx_10 >  27.27
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |--- williams_25 >  -97.15
+|   |   |   |   |   |   |--- standardDeviation_150 <= 3.44
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- standardDeviation_150 >  3.44
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |--- standardDeviation_50 >  14.85
+|   |   |   |   |--- rsi_15 <= 62.11
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- rsi_15 >  62.11
+|   |   |   |   |   |--- class: Loss
+|   |   |--- rsi_70 >  55.57
+|   |   |   |--- adx_70 <= 19.14
+|   |   |   |   |--- adx_25 <= 53.85
+|   |   |   |   |   |--- williams_150 <= -68.52
+|   |   |   |   |   |   |--- rsi_100 <= 391.43
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- rsi_100 >  391.43
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |--- williams_150 >  -68.52
+|   |   |   |   |   |   |--- standardDeviation_70 <= 6.11
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- standardDeviation_70 >  6.11
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- adx_25 >  53.85
+|   |   |   |   |   |--- williams_30 <= -11.30
+|   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- williams_30 >  -11.30
+|   |   |   |   |   |   |--- adx_20 <= 55.38
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- adx_20 >  55.38
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |--- adx_70 >  19.14
+|   |   |   |   |--- standardDeviation_200 <= 37.12
+|   |   |   |   |   |--- rsi_20 <= 73.31
+|   |   |   |   |   |   |--- rsi_120 <= 202.44
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- rsi_120 >  202.44
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- rsi_20 >  73.31
+|   |   |   |   |   |   |--- rsi_3 <= 97.95
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- rsi_3 >  97.95
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- standardDeviation_200 >  37.12
+|   |   |   |   |   |--- rsi_120 <= 98.86
+|   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- rsi_120 >  98.86
+|   |   |   |   |   |   |--- class: Loss
+|--- adx_200 >  3.75
+|   |--- rsi_120 <= 83.91
+|   |   |--- adx_150 <= 4.15
+|   |   |   |--- rsi_30 <= 42.28
+|   |   |   |   |--- williams_10 <= -97.47
+|   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- williams_10 >  -97.47
+|   |   |   |   |   |--- class: Gain
+|   |   |   |--- rsi_30 >  42.28
+|   |   |   |   |--- standardDeviation_15 <= 6.83
+|   |   |   |   |   |--- adx_100 <= 4.12
+|   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- adx_100 >  4.12
+|   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- standardDeviation_15 >  6.83
+|   |   |   |   |   |--- class: Gain
+|   |   |--- adx_150 >  4.15
+|   |   |   |--- rsi_200 <= 85.26
+|   |   |   |   |--- adx_120 <= 15.90
+|   |   |   |   |   |--- rsi_200 <= 52.12
+|   |   |   |   |   |   |--- standardDeviation_100 <= 12.19
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- standardDeviation_100 >  12.19
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- rsi_200 >  52.12
+|   |   |   |   |   |   |--- standardDeviation_100 <= 5.89
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- standardDeviation_100 >  5.89
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- adx_120 >  15.90
+|   |   |   |   |   |--- williams_200 <= -35.27
+|   |   |   |   |   |   |--- rsi_10 <= 65.36
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- rsi_10 >  65.36
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |--- williams_200 >  -35.27
+|   |   |   |   |   |   |--- standardDeviation_120 <= 6.17
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- standardDeviation_120 >  6.17
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |--- rsi_200 >  85.26
+|   |   |   |   |--- adx_30 <= 8.80
+|   |   |   |   |   |--- standardDeviation_150 <= 0.66
+|   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |--- standardDeviation_150 >  0.66
+|   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- adx_30 >  8.80
+|   |   |   |   |   |--- adx_200 <= 6.50
+|   |   |   |   |   |   |--- adx_200 <= 4.52
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- adx_200 >  4.52
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- adx_200 >  6.50
+|   |   |   |   |   |   |--- adx_100 <= 29.58
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- adx_100 >  29.58
+|   |   |   |   |   |   |   |--- class: Gain
+|   |--- rsi_120 >  83.91
+|   |   |--- standardDeviation_100 <= 15.15
+|   |   |   |--- standardDeviation_120 <= 0.83
+|   |   |   |   |--- class: Loss
+|   |   |   |--- standardDeviation_120 >  0.83
+|   |   |   |   |--- adx_120 <= 27.33
+|   |   |   |   |   |--- rsi_120 <= 97.18
+|   |   |   |   |   |   |--- standardDeviation_120 <= 0.84
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |   |--- standardDeviation_120 >  0.84
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- rsi_120 >  97.18
+|   |   |   |   |   |   |--- rsi_150 <= 133.20
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- rsi_150 >  133.20
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- adx_120 >  27.33
+|   |   |   |   |   |--- sma_3_above_dema_20 <= 0.50
+|   |   |   |   |   |   |--- adx_5 <= 24.36
+|   |   |   |   |   |   |   |--- class: Loss
+|   |   |   |   |   |   |--- adx_5 >  24.36
+|   |   |   |   |   |   |   |--- class: Gain
+|   |   |   |   |   |--- sma_3_above_dema_20 >  0.50
+|   |   |   |   |   |   |--- class: Loss
+|   |   |--- standardDeviation_100 >  15.15
+|   |   |   |--- class: Loss

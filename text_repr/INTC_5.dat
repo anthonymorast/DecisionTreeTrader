@@ -1,0 +1,58 @@
+|--- adx_15 <= 38.94
+|   |--- adx_30 <= 29.04
+|   |   |--- standardDeviation_50 <= 4.26
+|   |   |   |--- standardDeviation_200 <= 2.44
+|   |   |   |   |--- rsi_70 <= 54.04
+|   |   |   |   |   |--- class: 0-10pct Gain
+|   |   |   |   |--- rsi_70 >  54.04
+|   |   |   |   |   |--- class: 0-10pct Loss
+|   |   |   |--- standardDeviation_200 >  2.44
+|   |   |   |   |--- adx_25 <= 9.01
+|   |   |   |   |   |--- class: 10-30pct Loss
+|   |   |   |   |--- adx_25 >  9.01
+|   |   |   |   |   |--- class: 0-10pct Loss
+|   |   |--- standardDeviation_50 >  4.26
+|   |   |   |--- standardDeviation_200 <= 6.02
+|   |   |   |   |--- rsi_10 <= 61.30
+|   |   |   |   |   |--- class: 0-10pct Gain
+|   |   |   |   |--- rsi_10 >  61.30
+|   |   |   |   |   |--- class: 0-10pct Loss
+|   |   |   |--- standardDeviation_200 >  6.02
+|   |   |   |   |--- tema_3_above_tema_25 <= 0.50
+|   |   |   |   |   |--- class: 0-10pct Gain
+|   |   |   |   |--- tema_3_above_tema_25 >  0.50
+|   |   |   |   |   |--- class: 10-30pct Gain
+|   |--- adx_30 >  29.04
+|   |   |--- adx_15 <= 37.01
+|   |   |   |--- class: 10-30pct Loss
+|   |   |--- adx_15 >  37.01
+|   |   |   |--- standardDeviation_3 <= 0.53
+|   |   |   |   |--- class: 10-30pct Loss
+|   |   |   |--- standardDeviation_3 >  0.53
+|   |   |   |   |--- adx_200 <= 10.58
+|   |   |   |   |   |--- class: 0-10pct Loss
+|   |   |   |   |--- adx_200 >  10.58
+|   |   |   |   |   |--- class: 30-100pct Loss
+|--- adx_15 >  38.94
+|   |--- williams_5 <= -47.86
+|   |   |--- rsi_50 <= 54.21
+|   |   |   |--- adx_30 <= 21.61
+|   |   |   |   |--- standardDeviation_150 <= 4.56
+|   |   |   |   |   |--- class: 0-10pct Gain
+|   |   |   |   |--- standardDeviation_150 >  4.56
+|   |   |   |   |   |--- class: 10-30pct Gain
+|   |   |   |--- adx_30 >  21.61
+|   |   |   |   |--- class: 10-30pct Gain
+|   |   |--- rsi_50 >  54.21
+|   |   |   |--- standardDeviation_50 <= 2.45
+|   |   |   |   |--- dema_3_above_sma_200 <= 0.50
+|   |   |   |   |   |--- class: 10-30pct Loss
+|   |   |   |   |--- dema_3_above_sma_200 >  0.50
+|   |   |   |   |   |--- class: 0-10pct Loss
+|   |   |   |--- standardDeviation_50 >  2.45
+|   |   |   |   |--- class: 0-10pct Gain
+|   |--- williams_5 >  -47.86
+|   |   |--- rsi_120 <= 66.81
+|   |   |   |--- class: 0-10pct Gain
+|   |   |--- rsi_120 >  66.81
+|   |   |   |--- class: 10-30pct Loss
