@@ -1,0 +1,67 @@
+|--- adx_20 <= 52.57
+|   |--- rsi_120 <= 87.34
+|   |   |--- standardDeviation_30 <= 0.71
+|   |   |   |--- standardDeviation_200 <= 0.82
+|   |   |   |   |--- standardDeviation_25 <= 0.58
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- standardDeviation_25 >  0.58
+|   |   |   |   |   |--- class: Loss
+|   |   |   |--- standardDeviation_200 >  0.82
+|   |   |   |   |--- rsi_70 <= -619.93
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- rsi_70 >  -619.93
+|   |   |   |   |   |--- class: Loss
+|   |   |--- standardDeviation_30 >  0.71
+|   |   |   |--- standardDeviation_100 <= 1.98
+|   |   |   |   |--- standardDeviation_200 <= 3.79
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- standardDeviation_200 >  3.79
+|   |   |   |   |   |--- class: Loss
+|   |   |   |--- standardDeviation_100 >  1.98
+|   |   |   |   |--- adx_50 <= 39.70
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- adx_50 >  39.70
+|   |   |   |   |   |--- class: Gain
+|   |--- rsi_120 >  87.34
+|   |   |--- rsi_150 <= 279.73
+|   |   |   |--- standardDeviation_200 <= 7.89
+|   |   |   |   |--- adx_100 <= 6.78
+|   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- adx_100 >  6.78
+|   |   |   |   |   |--- class: Gain
+|   |   |   |--- standardDeviation_200 >  7.89
+|   |   |   |   |--- ema_3_above_tema_200 <= 0.50
+|   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- ema_3_above_tema_200 >  0.50
+|   |   |   |   |   |--- class: Gain
+|   |   |--- rsi_150 >  279.73
+|   |   |   |--- standardDeviation_150 <= 3.63
+|   |   |   |   |--- class: Loss
+|   |   |   |--- standardDeviation_150 >  3.63
+|   |   |   |   |--- rsi_5 <= 65.86
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- rsi_5 >  65.86
+|   |   |   |   |   |--- class: Loss
+|--- adx_20 >  52.57
+|   |--- standardDeviation_50 <= 14.85
+|   |   |--- rsi_15 <= -67.39
+|   |   |   |--- standardDeviation_10 <= 0.98
+|   |   |   |   |--- class: Loss
+|   |   |   |--- standardDeviation_10 >  0.98
+|   |   |   |   |--- class: Gain
+|   |   |--- rsi_15 >  -67.39
+|   |   |   |--- rsi_120 <= 41.73
+|   |   |   |   |--- standardDeviation_3 <= 0.05
+|   |   |   |   |   |--- class: Loss
+|   |   |   |   |--- standardDeviation_3 >  0.05
+|   |   |   |   |   |--- class: Gain
+|   |   |   |--- rsi_120 >  41.73
+|   |   |   |   |--- adx_3 <= 42.55
+|   |   |   |   |   |--- class: Gain
+|   |   |   |   |--- adx_3 >  42.55
+|   |   |   |   |   |--- class: Loss
+|   |--- standardDeviation_50 >  14.85
+|   |   |--- adx_30 <= 51.30
+|   |   |   |--- class: Loss
+|   |   |--- adx_30 >  51.30
+|   |   |   |--- class: Gain

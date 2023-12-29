@@ -1,0 +1,22 @@
+|--- adx_200 <= 3.75
+|   |--- standardDeviation_70 <= 0.82
+|   |   |--- rsi_150 <= -685.15
+|   |   |   |--- class: Gain
+|   |   |--- rsi_150 >  -685.15
+|   |   |   |--- class: Loss
+|   |--- standardDeviation_70 >  0.82
+|   |   |--- adx_20 <= 48.22
+|   |   |   |--- class: Gain
+|   |   |--- adx_20 >  48.22
+|   |   |   |--- class: Gain
+|--- adx_200 >  3.75
+|   |--- adx_30 <= 21.29
+|   |   |--- adx_150 <= 16.89
+|   |   |   |--- class: Loss
+|   |   |--- adx_150 >  16.89
+|   |   |   |--- class: Gain
+|   |--- adx_30 >  21.29
+|   |   |--- adx_30 <= 28.17
+|   |   |   |--- class: Gain
+|   |   |--- adx_30 >  28.17
+|   |   |   |--- class: Loss
